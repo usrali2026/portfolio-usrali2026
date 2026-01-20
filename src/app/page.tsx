@@ -9,7 +9,7 @@ export default function HomePage() {
           <p className="text-sm font-medium uppercase tracking-widest text-emerald-400">
             Software Developer · DevOps · 42 Luxembourg
           </p>
-          <h1 className="text-5xl font-bold tracking-tight sm:text-6xl">
+          <h1 className="text-5xl font-bold tracking-tight sm:text-6xl text-zinc-100">
             Ali Rahmoune
           </h1>
           <p className="text-xl text-zinc-400">
@@ -39,20 +39,28 @@ export default function HomePage() {
           </h2>
           <ul className="space-y-3 text-sm text-zinc-300">
             <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500"></span>
-              <span><strong className="text-zinc-200">Programming:</strong> C, C++, Bash, Python, JavaScript/TypeScript, SQL</span>
+              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />
+              <span>
+                <strong className="text-zinc-200">Programming:</strong> C, C++, Bash, Python, JavaScript/TypeScript, SQL
+              </span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500"></span>
-              <span><strong className="text-zinc-200">Web:</strong> HTTP/1.1, REST APIs, NestJS, Angular, Node.js</span>
+              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />
+              <span>
+                <strong className="text-zinc-200">Web:</strong> HTTP/1.1, REST APIs, NestJS, Angular, Node.js
+              </span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500"></span>
-              <span><strong className="text-zinc-200">DevOps:</strong> Docker, Docker Compose, CI/CD with GitHub Actions</span>
+              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />
+              <span>
+                <strong className="text-zinc-200">DevOps:</strong> Docker, Docker Compose, CI/CD with GitHub Actions
+              </span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500"></span>
-              <span><strong className="text-zinc-200">Systems:</strong> Linux, TCP/IP, routing, DNS, SSH, VoIP</span>
+              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />
+              <span>
+                <strong className="text-zinc-200">Systems:</strong> Linux, TCP/IP, routing, DNS, SSH, VoIP
+              </span>
             </li>
           </ul>
         </div>
@@ -64,19 +72,19 @@ export default function HomePage() {
           </h2>
           <ul className="space-y-3 text-sm text-zinc-300">
             <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500"></span>
+              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />
               <span>Cardiology clinic SPA (NestJS, Angular, PostgreSQL, Docker)</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500"></span>
+              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />
               <span>ft_transcendence full‑stack web app with real‑time features</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500"></span>
+              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />
               <span>Custom HTTP/1.1 server and UNIX shell in C/C++</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500"></span>
+              <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-emerald-500" />
               <span>Multi‑service Docker Compose infra and CI/CD workflows</span>
             </li>
           </ul>
