@@ -43,7 +43,7 @@ export default function ProjectsPage() {
                 including environment‑specific configuration.
               </li>
               <li>
-                Source code stored in a private 42 repository; architectural walk‑through available
+                Source code stored in a private Github repository; architectural walk‑through available
                 on request.
               </li>
             </ul>
@@ -81,7 +81,7 @@ export default function ProjectsPage() {
                 setup with Docker Compose.
               </li>
               <li>
-                Source code stored in a private 42 repository; detailed code and infra overview
+                Source code stored in a private Github repository; detailed code and infra overview
                 available during interviews.
               </li>
             </ul>
@@ -119,7 +119,7 @@ export default function ProjectsPage() {
                 concurrent clients.
               </li>
               <li>
-                Source code stored in a private 42 repository; protocol and implementation details
+                Source code stored in a private Github repository; protocol and implementation details
                 can be presented in person.
               </li>
             </ul>
@@ -191,7 +191,7 @@ export default function ProjectsPage() {
                 Configured Nginx as a reverse proxy and handled TLS and routing between services.
               </li>
               <li>
-                Project lives in a private 42 repository; deployment and architecture can be shown
+                Project lives in a private Github repository; deployment and architecture can be shown
                 on request.
               </li>
             </ul>
@@ -250,7 +250,7 @@ export default function ProjectsPage() {
               </div>
             </div>
             <p className="text-xs text-zinc-400">
-              Engine and tools are part of a private 42 repository; technical deep‑dive available
+              Engine and tools are part of a private Github repository; technical deep‑dive available
               in an interview.
             </p>
           </div>
