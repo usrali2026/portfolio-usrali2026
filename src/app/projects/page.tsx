@@ -1,69 +1,74 @@
 export default function ProjectsPage() {
   return (
     <main className="space-y-16 pb-16">
+
+      {/* ================= Header ================= */}
       <div>
         <h1 className="mb-3 text-4xl font-bold tracking-tight">Projects</h1>
         <p className="text-zinc-400">
           Backend, systems, and full-stack projects spanning healthcare, public platforms,
-          and real-time applications.
+          real-time applications, and low-level engineering.
         </p>
       </div>
 
+      {/* ================= Project Highlights ================= */}
+      <section className="rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6 backdrop-blur">
+        <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-zinc-500">
+          Project Highlights
+        </h2>
+        <ul className="space-y-3 text-sm text-zinc-300">
+          <li>• QuickPark – real-time smart parking platform</li>
+          <li>• Parcel Tracking – Angular 21 app with full E2E tests</li>
+          <li>• LëtzPulse – cardiology platform (ECG + workflows)</li>
+          <li>• AI Scribe – AI-powered medical documentation assistant</li>
+          <li>• LuxBase – public service discovery API (Go)</li>
+          <li>• Medical SPA – modern clinic management system</li>
+        </ul>
+      </section>
+
       {/* ================= Mini Project Cards ================= */}
       <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {/* QuickPark Card */}
-        <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-4 backdrop-blur hover:border-emerald-400 transition-all">
+        {/* QuickPark */}
+        <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-4 backdrop-blur
+                        hover:border-emerald-400 hover:scale-105 hover:shadow-lg
+                        transition-transform transition-shadow duration-300">
           <h3 className="text-lg font-semibold text-zinc-100 mb-2">QuickPark</h3>
           <p className="text-xs text-zinc-400 mb-2">
             Real-time smart parking platform with live availability and interactive maps.
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="badge">NestJS</span>
-            <span className="badge">Angular 21</span>
-            <span className="badge">PostgreSQL</span>
-            <span className="badge">Socket.IO</span>
-            <span className="badge">Leaflet</span>
-            <span className="badge">Docker</span>
-          </div>
-          <div className="mt-2 flex gap-3">
-            <a href="#" className="text-xs text-emerald-400 hover:underline">Live Demo</a>
-            <a href="#" className="text-xs text-emerald-400 hover:underline">GitHub</a>
+            <span className="badge hover:scale-110 transition-transform duration-200">NestJS</span>
+            <span className="badge hover:scale-110 transition-transform duration-200">Angular 21</span>
+            <span className="badge hover:scale-110 transition-transform duration-200">PostgreSQL</span>
+            <span className="badge hover:scale-110 transition-transform duration-200">Socket.IO</span>
+            <span className="badge hover:scale-110 transition-transform duration-200">Leaflet</span>
+            <span className="badge hover:scale-110 transition-transform duration-200">Docker</span>
           </div>
         </div>
 
-        {/* Parcel Tracking Card */}
-        <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-4 backdrop-blur hover:border-emerald-400 transition-all">
+        {/* Parcel Tracking */}
+        <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-4 backdrop-blur
+                        hover:border-emerald-400 hover:scale-105 hover:shadow-lg
+                        transition-transform transition-shadow duration-300">
           <h3 className="text-lg font-semibold text-zinc-100 mb-2">Parcel Tracking</h3>
           <p className="text-xs text-zinc-400 mb-2">
             Modern Angular 21 standalone app with full E2E test coverage 🎉
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="badge">Angular 21</span>
-            <span className="badge">TailwindCSS</span>
-            <span className="badge">Playwright</span>
-          </div>
-          <ul className="mt-2 list-disc pl-4 text-xs text-zinc-400 space-y-1">
-            <li>Responsive UI with animations</li>
-            <li>Auth: Forms, guards, protected routes</li>
-            <li>Search + filters + copy feedback</li>
-            <li>Sortable history table (20 parcels)</li>
-            <li>Multilingual: FR/EN/DE/LU</li>
-          </ul>
-          <div className="mt-2 flex gap-3">
-            <a href="#" className="text-xs text-emerald-400 hover:underline">Live Demo</a>
-            <a href="#" className="text-xs text-emerald-400 hover:underline">GitHub</a>
+            <span className="badge hover:scale-110 transition-transform duration-200">Angular 21</span>
+            <span className="badge hover:scale-110 transition-transform duration-200">TailwindCSS</span>
+            <span className="badge hover:scale-110 transition-transform duration-200">Playwright</span>
           </div>
         </div>
       </section>
 
-      {/* ================= FEATURED PROJECTS ================= */}
+      {/* ================= Featured Projects ================= */}
       <section className="space-y-8">
-        <h2 className="text-2xl font-semibold text-zinc-100">
-          🚀 Featured Projects
-        </h2>
+        <h2 className="text-2xl font-semibold text-zinc-100">🚀 Featured Projects</h2>
 
         {/* QuickPark */}
-        <article className="group rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6 backdrop-blur transition-all hover:border-zinc-700 hover:bg-zinc-900/70">
+        <article className="group rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6 backdrop-blur
+                            transition-all hover:border-zinc-700 hover:bg-zinc-900/70">
           <h3 className="mb-3 text-2xl font-semibold text-zinc-100 group-hover:text-emerald-400">
             QuickPark – Real-Time Smart Parking Platform
           </h3>
@@ -79,24 +84,11 @@ export default function ProjectsPage() {
             Full-stack parking management system with real-time availability updates,
             interactive maps, search/favorites, and admin controls.
           </p>
-          <ul className="mt-3 list-disc pl-5 text-xs text-zinc-400 space-y-1">
-            <li>Interactive map-based UI using Leaflet</li>
-            <li>Real-time updates via WebSocket (Socket.IO)</li>
-            <li>REST + WebSocket hybrid backend architecture (NestJS)</li>
-            <li>Dockerized full-stack deployment (frontend + backend + database)</li>
-            <li>Designed for smart city and production-ready usage</li>
-          </ul>
-          <div className="mt-4 flex items-center justify-between">
-            <span className="text-xs text-zinc-500">Independent project</span>
-            <div className="flex gap-3">
-              <a href="#" className="text-xs text-emerald-400 hover:underline">Live Demo</a>
-              <a href="#" className="text-xs text-emerald-400 hover:underline">GitHub</a>
-            </div>
-          </div>
         </article>
 
         {/* Parcel Tracking */}
-        <article className="group rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6 backdrop-blur transition-all hover:border-zinc-700 hover:bg-zinc-900/70">
+        <article className="group rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6 backdrop-blur
+                            transition-all hover:border-zinc-700 hover:bg-zinc-900/70">
           <h3 className="mb-3 text-2xl font-semibold text-zinc-100 group-hover:text-emerald-400">
             Parcel Tracking – Modern Angular 21 App
           </h3>
@@ -108,24 +100,79 @@ export default function ProjectsPage() {
           <p className="text-sm text-zinc-300">
             Modern Angular 21 standalone app with full E2E test coverage 🎉
           </p>
-          <ul className="mt-3 list-disc pl-5 text-xs text-zinc-400 space-y-1">
-            <li>Responsive UI with animations</li>
-            <li>Auth: Forms, guards, protected routes</li>
-            <li>Search + filters + copy feedback</li>
-            <li>Sortable history table (20 parcels)</li>
-            <li>Multilingual: FR/EN/DE/LU</li>
-          </ul>
-          <div className="mt-4 flex items-center justify-between">
-            <span className="text-xs text-zinc-500">Independent project</span>
-            <div className="flex gap-3">
-              <a href="#" className="text-xs text-emerald-400 hover:underline">Live Demo</a>
-              <a href="#" className="text-xs text-emerald-400 hover:underline">GitHub</a>
-            </div>
+        </article>
+
+        {/* Other Featured Projects */}
+        <article className="group rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6 backdrop-blur
+                            transition-all hover:border-zinc-700 hover:bg-zinc-900/70">
+          <h3 className="mb-3 text-2xl font-semibold text-zinc-100 group-hover:text-emerald-400">
+            LëtzPulse – Sovereign Cardiology Platform
+          </h3>
+          <div className="mb-4 flex flex-wrap gap-2">
+            <span className="badge">NestJS</span>
+            <span className="badge">Angular</span>
+            <span className="badge">PostgreSQL</span>
+            <span className="badge">Docker</span>
           </div>
+          <p className="text-sm text-zinc-300">
+            Full-stack cardiology platform designed for ECG data collection, analysis,
+            and clinical workflow management with data sovereignty in mind.
+          </p>
+        </article>
+
+        <article className="group rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6 backdrop-blur
+                            transition-all hover:border-zinc-700 hover:bg-zinc-900/70">
+          <h3 className="mb-3 text-2xl font-semibold text-zinc-100 group-hover:text-emerald-400">
+            AI Scribe – Medical Documentation Assistant
+          </h3>
+          <div className="mb-4 flex flex-wrap gap-2">
+            <span className="badge">NestJS</span>
+            <span className="badge">Angular</span>
+            <span className="badge">Python</span>
+            <span className="badge">Whisper</span>
+            <span className="badge">LLMs</span>
+            <span className="badge">Docker</span>
+          </div>
+          <p className="text-sm text-zinc-300">
+            AI system converting doctor-patient consultation audio into structured medical notes.
+          </p>
+        </article>
+
+        <article className="group rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6 backdrop-blur
+                            transition-all hover:border-zinc-700 hover:bg-zinc-900/70">
+          <h3 className="mb-3 text-2xl font-semibold text-zinc-100 group-hover:text-emerald-400">
+            LuxBase – Public Service Discovery Platform
+          </h3>
+          <div className="mb-4 flex flex-wrap gap-2">
+            <span className="badge">Go</span>
+            <span className="badge">PostgreSQL</span>
+            <span className="badge">Angular</span>
+            <span className="badge">Docker</span>
+          </div>
+          <p className="text-sm text-zinc-300">
+            API-first platform for discovering Luxembourg’s digital public services
+            with structured metadata and interoperability tooling.
+          </p>
+        </article>
+
+        <article className="group rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6 backdrop-blur
+                            transition-all hover:border-zinc-700 hover:bg-zinc-900/70">
+          <h3 className="mb-3 text-2xl font-semibold text-zinc-100 group-hover:text-emerald-400">
+            Medical SPA – Clinic Management System
+          </h3>
+          <div className="mb-4 flex flex-wrap gap-2">
+            <span className="badge">Angular 21</span>
+            <span className="badge">Express</span>
+            <span className="badge">PostgreSQL</span>
+            <span className="badge">Docker</span>
+          </div>
+          <p className="text-sm text-zinc-300">
+            Full-stack medical clinic system supporting patients, appointments, billing, and reports.
+          </p>
         </article>
       </section>
 
-      {/* ================= 42 PROJECTS ================= */}
+      {/* ================= 42 School Projects ================= */}
       <section className="space-y-8">
         <h2 className="text-2xl font-semibold text-zinc-100">
           🧪 42 School Projects (Systems & Low-Level)
@@ -159,12 +206,6 @@ export default function ProjectsPage() {
           >
             <h3 className="text-lg font-semibold text-zinc-100">{project.title}</h3>
             <p className="text-sm text-zinc-400">{project.desc}</p>
-            <div className="mt-3 flex items-center justify-between">
-              <span className="text-xs text-zinc-500">Private (42 project)</span>
-              <span className="text-xs text-emerald-400">
-                Code walkthrough available on request
-              </span>
-            </div>
           </article>
         ))}
       </section>
