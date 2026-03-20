@@ -118,7 +118,7 @@ export default function ProjectsPage() {
           { title: "Doom-Nukem 3D", desc: "Raycasting 3D engine with physics, rendering, and multiplayer features." },
           { title: "Inception-of-Things (IoT)", desc: "IoT platform with multi-device applications, K3s/K3d orchestration, and Argo CD deployment." },
           { title: "System Administration Projects", desc: "K3s & Vagrant, K3d & Argo CD, automated multi-server setups." },
-          { title: "room-music – Music Mobile Solution", desc: "Full-stack mobile solution with user management, live music voting, playlist control, collaborative editing, IoT & Spotify integration." },
+          { title: "music-room – Music Mobile Solution", desc: "Full-stack mobile solution with user management, live music voting, playlist control, collaborative editing, IoT & Spotify integration." },
           { title: "WordPress Automation Stack", desc: "Production-ready Docker/Ansible stack with WordPress, PHPMyAdmin, MySQL, Prometheus, Grafana." },
           { title: "BADASS – Network Administration", desc: "BGP simulation and network automation using GNS3 & Docker containers." },
           { title: "ft_hangouts – Mobile Contact Manager", desc: "Android app for managing contacts and sending text messages, with modern mobile UX." }
